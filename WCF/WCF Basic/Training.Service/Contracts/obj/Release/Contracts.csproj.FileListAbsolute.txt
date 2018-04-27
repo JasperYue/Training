@@ -1,0 +1,12 @@
+D:\Training\Training.Service\Contracts\bin\Release\Contracts.dll.config
+D:\Training\Training.Service\Contracts\bin\Release\Contracts.dll
+D:\Training\Training.Service\Contracts\bin\Release\Contracts.pdb
+D:\Training\Training.Service\Contracts\obj\Release\Contracts.dll
+D:\Training\Training.Service\Contracts\obj\Release\Contracts.pdb
+D:\Training\Training.Service\Contracts\obj\Release\Contracts.csprojResolveAssemblyReference.cache
+C:\Users\jasper.yue\Desktop\_to jsp\Training\Training.Service\Contracts\bin\Release\Contracts.dll.config
+C:\Users\jasper.yue\Desktop\_to jsp\Training\Training.Service\Contracts\bin\Release\Contracts.dll
+C:\Users\jasper.yue\Desktop\_to jsp\Training\Training.Service\Contracts\bin\Release\Contracts.pdb
+C:\Users\jasper.yue\Desktop\_to jsp\Training\Training.Service\Contracts\obj\Release\Contracts.csprojResolveAssemblyReference.cache
+C:\Users\jasper.yue\Desktop\_to jsp\Training\Training.Service\Contracts\obj\Release\Contracts.dll
+C:\Users\jasper.yue\Desktop\_to jsp\Training\Training.Service\Contracts\obj\Release\Contracts.pdb

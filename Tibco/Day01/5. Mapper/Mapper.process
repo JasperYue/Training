@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pd:ProcessDefinition xmlns:pd="http://xmlns.tibco.com/bw/process/2003" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <pd:name>5. Mapper/Mapper.process</pd:name>
+    <pd:startName>Start</pd:startName>
+    <pd:startX>126</pd:startX>
+    <pd:startY>160</pd:startY>
+    <pd:returnBindings/>
+    <pd:endName>End</pd:endName>
+    <pd:endX>630</pd:endX>
+    <pd:endY>163</pd:endY>
+    <pd:errorSchemas/>
+    <pd:processVariables/>
+    <pd:targetNamespace>http://xmlns.example.com/1512615908732</pd:targetNamespace>
+    <pd:activity name="Map Data">
+        <pd:type>com.tibco.plugin.mapper.MapperActivity</pd:type>
+        <pd:resourceType>ae.activities.MapperActivity</pd:resourceType>
+        <pd:x>430</pd:x>
+        <pd:y>161</pd:y>
+        <config>
+            <element>
+                <xsd:element name="root">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="People1" minOccurs="0" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="Id" type="xsd:long"/>
+                                        <xsd:element name="Name" type="xsd:string"/>
+                                        <xsd:element name="UpdateTime" type="xsd:dateTime"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="People2" minOccurs="0" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="Id" type="xsd:long"/>
+                                        <xsd:element name="Name" type="xsd:string"/>
+                                        <xsd:element name="UpdateTime" type="xsd:dateTime"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </element>
+        </config>
+        <pd:inputBindings>
+            <root>
+                <People1>
+                    <xsl:copy-of select="$Call-Procedure/ResultSet/People/ancestor-or-self::*/namespace::node()"/>
+                    <xsl:copy-of select="$Call-Procedure/ResultSet/People/@*"/>
+                    <xsl:copy-of select="$Call-Procedure/ResultSet/People/node()"/>
+                </People1>
+                <People2>
+                    <xsl:copy-of select="$Call-Procedure-1/ResultSet/People/ancestor-or-self::*/namespace::node()"/>
+                    <xsl:copy-of select="$Call-Procedure-1/ResultSet/People/@*"/>
+                    <xsl:copy-of select="$Call-Procedure-1/ResultSet/People/node()"/>
+                </People2>
+            </root>
+        </pd:inputBindings>
+    </pd:activity>
+    <pd:activity name="Call Procedure">
+        <pd:type>com.tibco.pe.core.CallProcessActivity</pd:type>
+        <pd:resourceType>ae.process.subprocess</pd:resourceType>
+        <pd:x>267</pd:x>
+        <pd:y>83</pd:y>
+        <config>
+            <processName>/2. JDBC/Call Procedure.process</processName>
+        </config>
+        <pd:inputBindings/>
+    </pd:activity>
+    <pd:activity name="Call-Procedure-1">
+        <pd:type>com.tibco.pe.core.CallProcessActivity</pd:type>
+        <pd:resourceType>ae.process.subprocess</pd:resourceType>
+        <pd:x>269</pd:x>
+        <pd:y>210</pd:y>
+        <config>
+            <processName>/2. JDBC/Call Procedure.process</processName>
+        </config>
+        <pd:inputBindings/>
+    </pd:activity>
+    <pd:transition>
+        <pd:from>Start</pd:from>
+        <pd:to>Call Procedure</pd:to>
+        <pd:lineType>Default</pd:lineType>
+        <pd:lineColor>-16777216</pd:lineColor>
+        <pd:conditionType>always</pd:conditionType>
+    </pd:transition>
+    <pd:transition>
+        <pd:from>Map Data</pd:from>
+        <pd:to>End</pd:to>
+        <pd:lineType>Default</pd:lineType>
+        <pd:lineColor>-16777216</pd:lineColor>
+        <pd:conditionType>always</pd:conditionType>
+    </pd:transition>
+    <pd:transition>
+        <pd:from>Call Procedure</pd:from>
+        <pd:to>Map Data</pd:to>
+        <pd:lineType>Default</pd:lineType>
+        <pd:lineColor>-16777216</pd:lineColor>
+        <pd:conditionType>always</pd:conditionType>
+    </pd:transition>
+    <pd:transition>
+        <pd:from>Start</pd:from>
+        <pd:to>Call-Procedure-1</pd:to>
+        <pd:lineType>Default</pd:lineType>
+        <pd:lineColor>-16777216</pd:lineColor>
+        <pd:conditionType>always</pd:conditionType>
+    </pd:transition>
+    <pd:transition>
+        <pd:from>Call-Procedure-1</pd:from>
+        <pd:to>Map Data</pd:to>
+        <pd:lineType>Default</pd:lineType>
+        <pd:lineColor>-16777216</pd:lineColor>
+        <pd:conditionType>always</pd:conditionType>
+    </pd:transition>
+</pd:ProcessDefinition>

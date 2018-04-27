@@ -1,0 +1,5 @@
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Common.BusinessModel\bin\Debug\Training.Common.BusinessModel.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Common.BusinessModel\bin\Debug\Training.Common.BusinessModel.pdb
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Common.BusinessModel\obj\Debug\Training.Common.BusinessModel.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Common.BusinessModel\obj\Debug\Training.Common.BusinessModel.pdb
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\Training.Service\Training.Common.BusinessModel\obj\Debug\Training.Common.BusinessModel.csprojResolveAssemblyReference.cache

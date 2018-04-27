@@ -1,0 +1,14 @@
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service\obj\Debug\Training.Service.csprojResolveAssemblyReference.cache
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service\bin\Debug\Training.Service.dll.config
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service\bin\Debug\Training.Service.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service\bin\Debug\Training.Service.pdb
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service\bin\Debug\Training.Common.BusinessModel.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service\bin\Debug\Training.Service.BusinessLogic.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service\bin\Debug\Training.Data.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service\bin\Debug\Training.Common.BusinessModel.pdb
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service\bin\Debug\Training.Service.BusinessLogic.pdb
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service\bin\Debug\Training.Data.pdb
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service\obj\Debug\Training.Service.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service\obj\Debug\Training.Service.pdb
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\Training.Service\Training.Service\bin\Debug\Interface1.dll
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\Training.Service\Training.Service\bin\Debug\Interface1.pdb

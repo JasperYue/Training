@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pd:ProcessDefinition xmlns:pd="http://xmlns.tibco.com/bw/process/2003" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <pd:name>2. JDBC/Call Procedure.process</pd:name>
+    <pd:startName>Start</pd:startName>
+    <pd:startType/>
+    <pd:startX>150</pd:startX>
+    <pd:startY>64</pd:startY>
+    <pd:returnBindings>
+        <ResultSet>
+            <xsl:for-each select="$JDBC-Call-Procedure/resultSet/Resultsets/ResultSet1/Record1">
+                <People>
+                    <Id>
+                        <xsl:value-of select="Id"/>
+                    </Id>
+                    <Name>
+                        <xsl:value-of select="Name"/>
+                    </Name>
+                    <UpdateTime>
+                        <xsl:value-of select="UpdateTime"/>
+                    </UpdateTime>
+                </People>
+            </xsl:for-each>
+        </ResultSet>
+    </pd:returnBindings>
+    <pd:endName>End</pd:endName>
+    <pd:endType>
+        <xsd:element name="ResultSet">
+            <xsd:complexType>
+                <xsd:sequence>
+                    <xsd:element name="People" minOccurs="0" maxOccurs="unbounded">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="Id" type="xsd:long"/>
+                                <xsd:element name="Name" type="xsd:string"/>
+                                <xsd:element name="UpdateTime" type="xsd:dateTime"/>
+                            </xsd:sequence>
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:element>
+    </pd:endType>
+    <pd:endX>450</pd:endX>
+    <pd:endY>64</pd:endY>
+    <pd:errorSchemas/>
+    <pd:processVariables/>
+    <pd:targetNamespace>http://xmlns.example.com/1512614299152</pd:targetNamespace>
+    <pd:activity name="JDBC Call Procedure">
+        <pd:type>com.tibco.plugin.jdbc.JDBCCallActivity</pd:type>
+        <pd:resourceType>ae.activities.JDBCCallActivity</pd:resourceType>
+        <pd:x>274</pd:x>
+        <pd:y>87</pd:y>
+        <config>
+            <timeout>10</timeout>
+            <maxRows>0</maxRows>
+            <emptyStrAsNil>false</emptyStrAsNil>
+            <jdbcSharedConfig>/Resource/JDBC Connection.sharedjdbc</jdbcSharedConfig>
+            <ProcedureName>GetPeoples;1</ProcedureName>
+            <useSchema>true</useSchema>
+            <oraObjects/>
+            <oraTables/>
+            <ResultSets>
+                <ResultSet>
+                    <QueryOutputCachedSchemaColumns>Id</QueryOutputCachedSchemaColumns>
+                    <QueryOutputCachedSchemaDataTypes>-5</QueryOutputCachedSchemaDataTypes>
+                    <QueryOutputCachedSchemaStatus>RequiredElement</QueryOutputCachedSchemaStatus>
+                    <QueryOutputCachedSchemaColumns>Name</QueryOutputCachedSchemaColumns>
+                    <QueryOutputCachedSchemaDataTypes>-9</QueryOutputCachedSchemaDataTypes>
+                    <QueryOutputCachedSchemaStatus>RequiredElement</QueryOutputCachedSchemaStatus>
+                    <QueryOutputCachedSchemaColumns>UpdateTime</QueryOutputCachedSchemaColumns>
+                    <QueryOutputCachedSchemaDataTypes>93</QueryOutputCachedSchemaDataTypes>
+                    <QueryOutputCachedSchemaStatus>RequiredElement</QueryOutputCachedSchemaStatus>
+                </ResultSet>
+            </ResultSets>
+            <parameterTypes>
+                <parameter>
+                    <colName>@RETURN_VALUE</colName>
+                    <colType>5</colType>
+                    <dataType>4</dataType>
+                    <typeName>int</typeName>
+                </parameter>
+                <parameter>
+                    <colName>@Id</colName>
+                    <colType>1</colType>
+                    <dataType>-5</dataType>
+                    <typeName>bigint</typeName>
+                </parameter>
+            </parameterTypes>
+        </config>
+        <pd:inputBindings>
+            <inputs>
+                <inputSet>
+                    <Id>
+                        <xsl:value-of select="1"/>
+                    </Id>
+                </inputSet>
+            </inputs>
+        </pd:inputBindings>
+    </pd:activity>
+    <pd:transition>
+        <pd:from>Start</pd:from>
+        <pd:to>JDBC Call Procedure</pd:to>
+        <pd:lineType>Default</pd:lineType>
+        <pd:lineColor>-16777216</pd:lineColor>
+        <pd:conditionType>always</pd:conditionType>
+    </pd:transition>
+    <pd:transition>
+        <pd:from>JDBC Call Procedure</pd:from>
+        <pd:to>End</pd:to>
+        <pd:lineType>Default</pd:lineType>
+        <pd:lineColor>-16777216</pd:lineColor>
+        <pd:conditionType>always</pd:conditionType>
+    </pd:transition>
+</pd:ProcessDefinition>

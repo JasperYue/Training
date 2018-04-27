@@ -1,0 +1,9 @@
+c:\users\jasper.yue\documents\visual studio 2013\Projects\DotnetTraining\DelegateBasic\bin\Debug\DelegateBasic.exe.config
+c:\users\jasper.yue\documents\visual studio 2013\Projects\DotnetTraining\DelegateBasic\bin\Debug\DelegateBasic.exe
+c:\users\jasper.yue\documents\visual studio 2013\Projects\DotnetTraining\DelegateBasic\bin\Debug\DelegateBasic.pdb
+c:\users\jasper.yue\documents\visual studio 2013\Projects\DotnetTraining\DelegateBasic\obj\Debug\DelegateBasic.exe
+c:\users\jasper.yue\documents\visual studio 2013\Projects\DotnetTraining\DelegateBasic\obj\Debug\DelegateBasic.pdb
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\DotnetTraining\DelegateBasic\obj\Debug\DelegateBasic.csprojResolveAssemblyReference.cache
+C:\Users\jasper.yue\Desktop\Training\Delegate\Code\DelegateBasic\bin\Debug\DelegateBasic.exe.config
+C:\Users\jasper.yue\Desktop\Training\Delegate\Code\DelegateBasic\obj\Debug\DelegateBasic.exe
+C:\Users\jasper.yue\Desktop\Training\Delegate\Code\DelegateBasic\obj\Debug\DelegateBasic.pdb

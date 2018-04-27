@@ -1,0 +1,6 @@
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\CallWcfServiceDemo\CallWcfServiceDemo\bin\Debug\CallWcfServiceDemo.exe.config
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\CallWcfServiceDemo\CallWcfServiceDemo\bin\Debug\CallWcfServiceDemo.exe
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\CallWcfServiceDemo\CallWcfServiceDemo\bin\Debug\CallWcfServiceDemo.pdb
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\CallWcfServiceDemo\CallWcfServiceDemo\obj\Debug\CallWcfServiceDemo.exe
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\CallWcfServiceDemo\CallWcfServiceDemo\obj\Debug\CallWcfServiceDemo.pdb
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\CallWcfServiceDemo\CallWcfServiceDemo\obj\Debug\CallWcfServiceDemo.csprojResolveAssemblyReference.cache

@@ -1,0 +1,21 @@
+C:\Users\ronnie.wang\Documents\Visual Studio 2013\projects\Training.Client\Training.Client\bin\Debug\Training.Client.exe.config
+C:\Users\ronnie.wang\Documents\Visual Studio 2013\projects\Training.Client\Training.Client\bin\Debug\Training.Client.exe
+C:\Users\ronnie.wang\Documents\Visual Studio 2013\projects\Training.Client\Training.Client\bin\Debug\Training.Client.pdb
+C:\Users\ronnie.wang\Documents\Visual Studio 2013\projects\Training.Client\Training.Client\bin\Debug\Training.Client.Common.dll
+C:\Users\ronnie.wang\Documents\Visual Studio 2013\projects\Training.Client\Training.Client\bin\Debug\Training.Client.Common.pdb
+C:\Users\ronnie.wang\Documents\Visual Studio 2013\projects\Training.Client\Training.Client\obj\Debug\Training.Client.exe
+C:\Users\ronnie.wang\Documents\Visual Studio 2013\projects\Training.Client\Training.Client\obj\Debug\Training.Client.pdb
+C:\Users\jasper.yue\Desktop\Training.Client\Training.Client\bin\Debug\Training.Client.exe.config
+C:\Users\jasper.yue\Desktop\Training.Client\Training.Client\obj\Debug\Training.Client.exe
+C:\Users\jasper.yue\Desktop\Training.Client\Training.Client\obj\Debug\Training.Client.pdb
+C:\Users\jasper.yue\Desktop\Training.Client\Training.Client\bin\Debug\Training.Client.exe
+C:\Users\jasper.yue\Desktop\Training.Client\Training.Client\bin\Debug\Training.Client.pdb
+C:\Users\jasper.yue\Desktop\Training.Client\Training.Client\obj\Debug\Training.Client.csprojResolveAssemblyReference.cache
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\Training.Client\Training.Client\bin\Debug\Training.Client.exe.config
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\Training.Client\Training.Client\obj\Debug\Training.Client.exe
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\Training.Client\Training.Client\obj\Debug\Training.Client.pdb
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\Training.Client\Training.Client\bin\Debug\Training.Client.exe
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\Training.Client\Training.Client\bin\Debug\Training.Client.pdb
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\Training.Client\Training.Client\obj\Debug\Training.Client.csprojResolveAssemblyReference.cache
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\Training.Client\Training.Client\bin\Debug\Test.dll
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\Training.Client\Training.Client\bin\Debug\Test.pdb

@@ -1,0 +1,9 @@
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service.BusinessLogic\obj\Debug\Training.Service.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service.BusinessLogic\bin\Debug\Training.Service.BusinessLogic.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service.BusinessLogic\bin\Debug\Training.Service.BusinessLogic.pdb
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service.BusinessLogic\bin\Debug\Training.Common.BusinessModel.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service.BusinessLogic\bin\Debug\Training.Data.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service.BusinessLogic\bin\Debug\Training.Common.BusinessModel.pdb
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service.BusinessLogic\bin\Debug\Training.Data.pdb
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service.BusinessLogic\obj\Debug\Training.Service.BusinessLogic.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Service.BusinessLogic\obj\Debug\Training.Service.BusinessLogic.pdb

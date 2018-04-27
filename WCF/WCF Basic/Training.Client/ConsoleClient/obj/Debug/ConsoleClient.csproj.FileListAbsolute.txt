@@ -1,0 +1,18 @@
+c:\users\jasper.yue\documents\visual studio 2013\Projects\Training.Client\ConsoleClient\bin\Debug\ConsoleClient.exe.config
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Client\ConsoleClient\bin\Debug\ConsoleClient.exe
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Client\ConsoleClient\bin\Debug\ConsoleClient.pdb
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Client\ConsoleClient\obj\Debug\ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Client\ConsoleClient\obj\Debug\ConsoleClient.exe
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Client\ConsoleClient\obj\Debug\ConsoleClient.pdb
+D:\Training\Training.Client\ConsoleClient\bin\Debug\ConsoleClient.exe.config
+D:\Training\Training.Client\ConsoleClient\obj\Debug\ConsoleClient.exe
+D:\Training\Training.Client\ConsoleClient\obj\Debug\ConsoleClient.pdb
+D:\Training\Training.Client\ConsoleClient\bin\Debug\ConsoleClient.exe
+D:\Training\Training.Client\ConsoleClient\bin\Debug\ConsoleClient.pdb
+D:\Training\Training.Client\ConsoleClient\obj\Debug\ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\jasper.yue\Desktop\_to jsp\Training\Training.Client\ConsoleClient\bin\Debug\ConsoleClient.exe.config
+C:\Users\jasper.yue\Desktop\_to jsp\Training\Training.Client\ConsoleClient\obj\Debug\ConsoleClient.exe
+C:\Users\jasper.yue\Desktop\_to jsp\Training\Training.Client\ConsoleClient\obj\Debug\ConsoleClient.pdb
+C:\Users\jasper.yue\Desktop\_to jsp\Training\Training.Client\ConsoleClient\bin\Debug\ConsoleClient.exe
+C:\Users\jasper.yue\Desktop\_to jsp\Training\Training.Client\ConsoleClient\bin\Debug\ConsoleClient.pdb
+C:\Users\jasper.yue\Desktop\_to jsp\Training\Training.Client\ConsoleClient\obj\Debug\ConsoleClient.csprojResolveAssemblyReference.cache

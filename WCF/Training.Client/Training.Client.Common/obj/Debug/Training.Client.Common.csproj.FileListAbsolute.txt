@@ -1,0 +1,5 @@
+c:\users\ronnie.wang\documents\visual studio 2013\projects\Training.Client\Training.Client.Common\bin\Debug\Training.Client.Common.dll
+c:\users\ronnie.wang\documents\visual studio 2013\projects\Training.Client\Training.Client.Common\bin\Debug\Training.Client.Common.pdb
+c:\users\ronnie.wang\documents\visual studio 2013\projects\Training.Client\Training.Client.Common\obj\Debug\Training.Client.Common.csprojResolveAssemblyReference.cache
+c:\users\ronnie.wang\documents\visual studio 2013\projects\Training.Client\Training.Client.Common\obj\Debug\Training.Client.Common.dll
+c:\users\ronnie.wang\documents\visual studio 2013\projects\Training.Client\Training.Client.Common\obj\Debug\Training.Client.Common.pdb

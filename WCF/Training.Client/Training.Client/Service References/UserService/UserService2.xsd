@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Training.Common" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Training.Common" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="UserGenderEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="MALE" />
+      <xs:enumeration value="FEMALE" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="UserGenderEnum" nillable="true" type="tns:UserGenderEnum" />
+</xs:schema>

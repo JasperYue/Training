@@ -1,0 +1,12 @@
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Contracts\bin\Debug\Contracts.dll.config
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Contracts\bin\Debug\Contracts.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Contracts\bin\Debug\Contracts.pdb
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Contracts\obj\Debug\Contracts.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Contracts\obj\Debug\Contracts.pdb
+C:\Users\jasper.yue\Documents\visual studio 2013\Projects\Training.Service\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+D:\Training\Training.Service\Contracts\bin\Debug\Contracts.dll.config
+D:\Training\Training.Service\Contracts\bin\Debug\Contracts.dll
+D:\Training\Training.Service\Contracts\bin\Debug\Contracts.pdb
+D:\Training\Training.Service\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+D:\Training\Training.Service\Contracts\obj\Debug\Contracts.dll
+D:\Training\Training.Service\Contracts\obj\Debug\Contracts.pdb

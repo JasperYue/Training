@@ -1,0 +1,5 @@
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Data\bin\Debug\Training.Data.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Data\bin\Debug\Training.Data.pdb
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Data\obj\Debug\Training.Data.dll
+C:\Users\jasper.yue\documents\visual studio 2013\Projects\Training.Service\Training.Data\obj\Debug\Training.Data.pdb
+C:\Users\jasper.yue\Documents\Visual Studio 2013\Projects\Training.Service\Training.Data\obj\Debug\Training.Data.csprojResolveAssemblyReference.cache
